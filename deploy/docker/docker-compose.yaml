@@ -103,7 +103,7 @@ services:
     image: signoz/signoz:${VERSION:-v0.113.0}
     container_name: signoz
     ports:
-      - "8080:8080" # signoz port
+      - "38080:8080" # signoz port
     volumes:
       - sqlite:/var/lib/signoz/
     environment:
